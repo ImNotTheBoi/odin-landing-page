@@ -1,3 +1,4 @@
+/* Global Properties */
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +7,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Section 1 */
 .section-1 {
     display: flex;
     background-color: #1F2937;
@@ -28,9 +35,6 @@ header {
 }
 
 header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
@@ -64,6 +68,7 @@ header ul {
 .section-1 img {
     display: flex;
     max-width: 600px;
+    border-radius: 18px;
 }
 
 .section-1 button {
@@ -76,10 +81,37 @@ header ul {
     max-width: 125px;
     font-weight: bold;
 }
-
+/* Section 2 */
 .section-2 {
     display: flex;
     padding: 16px 128px;
     flex-direction: column;
     height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 #info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 64px;
+}
+
+.section-2 ul {
+    display: flex;
+    gap: 64px;
+}
+
+.section-2 li {
+    text-align: center;
+    width: 200px;
+}
+
+.section-2 img {
+    border-radius: 18px;
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-bottom: 8px;
 }
