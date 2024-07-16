@@ -16,7 +16,7 @@ ul {
 .section-1 {
     display: flex;
     background-color: #1F2937;
-    padding: 16px 128px;
+    padding: 16px 232px;
     flex-direction: column;
     height: 700px;
 }
@@ -114,4 +114,25 @@ header ul {
     width: 200px;
     height: auto;
     margin-bottom: 8px;
+}
+/* Section 3 */
+.section-3 {
+    display: flex;
+    background-color: #e2e7eb;
+    padding: 16px 300px;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.section-3 #quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+.section-3 span {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
